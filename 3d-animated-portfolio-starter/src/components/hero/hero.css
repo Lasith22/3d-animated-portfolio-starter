@@ -10,9 +10,6 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.hSection.right {
-  align-items: end;
-}
 
 .hTitle {
   margin-top: 50px;
@@ -40,4 +37,38 @@
   background-color: white;
   border-radius: 100%;
   padding: 8px;
+}
+.hSection.right {
+  align-items: end;
+}
+.follow {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  background-color: #2f204e;
+  border-bottom-right-radius: 10px;
+}
+
+.follow img {
+  width: 20px;
+  height: 20px;
+}
+
+.followTextContainer {
+  width: 20px;
+  height: 20px;
+}
+.followText {
+  background-color: #dd4c62;
+  font-size: 12px;
+  rotate: 90deg;
+  width: max-content;
+  height: 100%;
+  transform-origin: left top;
+  transform: translateY(-20px);
+  padding: 0px 8px;
+  display: flex;
+  align-items: center;
+  border-bottom-right-radius: 10px;
 }
