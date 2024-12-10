@@ -34,6 +34,9 @@ const Hero = () => {
           <a href="/">
             <img src="/youtube.png" alt="" />
           </a>
+          <div className="followTextContainer">
+            <div className="followText">FOLLOW ME</div>
+          </div>
         </div>
         {/* bubble */}
         <Speach />
